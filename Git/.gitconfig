@@ -1,0 +1,15 @@
+[safe]
+	directory = C:/Users/Yue/Desktop/Gitty01
+	directory = C:/Users/Yue/PycharmProjects/pythonProject01
+	directory = C:/Users/Yue/Documents/MyGitRepo/AutomatedLab
+	directory = F:/CBTs/__checkit_MicrosoftCode/Powershell
+[user]
+	name = yyao43
+	email = yyao@gmx.de
+[core]
+	autocrlf = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true

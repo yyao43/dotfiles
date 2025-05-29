@@ -1,0 +1,60 @@
+{
+  "files.autoSave": "afterDelay",
+  "cmake.configureOnOpen": true,
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    {
+      "extensionId": "ms-dotnettools.csdevkit",
+      "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+    }
+  ],
+  "[xslt]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "remote.SSH.remotePlatform": {
+    "192.168.8.225": "linux",
+    "192.168.8.250": "macOS",
+    "macbookpro": "macOS",
+    "sysadmin_225_key": "linux",
+    "192.168.8.41": "linux"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+  },
+  "workbench.colorTheme": "Visual Studio Dark",
+  "dev.containers.executeInWSL": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.fontSize": 15,
+  "yaml.schemas": {
+    "file:///c%3A/Users/Yue/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "svg.preview.mode": "svg",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.shellIntegration.enabled": true,
+
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "editor.formatOnType": true
+
+}

@@ -1,0 +1,265 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": "togglePaneZoom",
+            "id": "User.togglePaneZoom"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "focusFollowMouse": true,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.togglePaneZoom",
+            "keys": "alt+shift+z"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "language": "en-US",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Eingabeaufforderung"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{97821f2b-89b0-5701-8708-09f2851477b4}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{e60057f6-dd2d-55a8-af2c-687e59b62ce5}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": true,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+                "hidden": true,
+                "name": "Ubuntu-22.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{24a0533e-913b-5f8c-a5cb-6be85a4c9e70}",
+                "hidden": false,
+                "name": "Ubuntu 18.04.6 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu18.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{963ff2f7-6aed-5ce3-9d91-90d99571f53a}",
+                "hidden": true,
+                "name": "Ubuntu-24.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64",
+                "guid": "{f1bbb820-9ab9-4bf5-9a84-56419f1fdded}",
+                "hidden": false,
+                "icon": "C:\\msys64\\ucrt64.ico",
+                "name": "UCRT / MSYS2",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
+                "hidden": false,
+                "name": "Ubuntu 24.04.1 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+                "hidden": false,
+                "name": "Ubuntu 22.04.5 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "colorScheme": "Solarized Dark",
+                "commandline": "cmd /k \"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat\"",
+                "guid": "{94eaf1d8-4921-4dea-9923-c0c9e0a54b15}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "startingDirectory": null
+            },
+            {
+                "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe -c \"&{Import-Module \"\"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell 6960bdd6}\"",
+                "guid": "{9d1f1900-fdab-4480-9a06-4d72504b874c}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Developer PowerShell for VS 2022",
+                "startingDirectory": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community"
+            },
+            {
+                "guid": "{5f6ef5f5-54d5-5f63-8e07-5fc3dc0f9d9e}",
+                "hidden": false,
+                "name": "docker-desktop",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{db6af9b4-00fb-54bc-9864-a52fe5c2a79d}",
+                "hidden": false,
+                "name": "CentOSStream9",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{7c032a1d-b863-51e2-849f-f64f6d38513d}",
+                "hidden": false,
+                "name": "RHELUbi8",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{9ee8cd0e-f78e-5e21-a437-70e0cccd3075}",
+                "hidden": false,
+                "icon": "none",
+                "name": "AlpineCustom",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -msys2",
+                "guid": "{ccbf9cfd-811b-4182-a91d-4e54d2181d75}",
+                "hidden": false,
+                "icon": "C:\\msys64\\msys2.ico",
+                "name": "MSYS2.MSYS",
+                "startingDirectory": "C:\\msys64\\home/%username%",
+                "tabTitle": "MSYS"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -mingw64",
+                "guid": "{c92fe640-7a1d-428d-b398-0aa00cb343cb}",
+                "hidden": false,
+                "icon": "C:\\msys64\\mingw64.ico",
+                "name": "MSYS2.MinGW64",
+                "tabTitle": "MinGW64"
+            },
+            {
+                "guid": "{c1691010-9398-5c41-8afd-f908e852b95b}",
+                "hidden": false,
+                "name": "UbuntuXX",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{a970d9a1-aeff-548b-a897-62aa9ae36309}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{bd9dd7d6-109f-5871-9384-16142ba05074}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3c0422ce-5d11-5ab6-bcd6-29aad6262fed}",
+                "hidden": false,
+                "name": "FedoraLinux-42",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{0d8dcbd2-02ff-5f32-bbc8-478410059b7d}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": []
+}
